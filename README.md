@@ -14,3 +14,8 @@ An example of a test failing because only 64KiB of SRAM are present:
 
 ![Failing test](https://user-images.githubusercontent.com/15271137/180015672-c46efa53-9e3f-4798-8d22-2564ad01ef89.png)
 
+## Building
+
+You will need [RGBDS](https://rgbds.gbdev.io), at least [v0.6.0-rc1](https://github.com/gbdev/rgbds/releases/v0.6.0-rc1).
+
+Then, simply run `./build.sh` in a POSIX environment, and grab `sram128.gb` from the `bin/` directory!
