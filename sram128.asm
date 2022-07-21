@@ -33,7 +33,7 @@ Main:
 	ld a, $0A
 	ld [rRAMG], a
 
-	FOR I, 16
+	FOR I, 15, -1, -1
 		ld a, I
 		call WriteBank
 	ENDR
